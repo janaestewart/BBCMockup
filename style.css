@@ -1,0 +1,210 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header {
+    height: 40px;
+    background: black;  
+    padding: 5px 20px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  nav * {
+    float: left;
+    width: 10%;
+    color: white;
+    display: block;
+    margin-left: 10px;
+  }
+  
+  nav ul {
+    width: 60%;
+  }
+  nav form {
+    width: 20%;
+  }
+  
+  nav form input {
+    width: 60%;
+    margin-top: 5px;
+  }
+  
+  main>section {
+    width: 50%;
+    height: 500px;
+    float: left;
+  }
+  
+  main > section + section section {
+    width: 50%;
+    height: 250px;
+    float: left;
+    border: 1px solid black;
+  }
+  
+  header > nav > img {
+    height: 25px;
+    width: 80px;
+  }
+  
+  nav > ul > li {
+    border-right: .0001px solid white;
+    padding: 0 0 0 5px;
+    margin-top: -10px;
+  }
+  
+  nav > a {
+    padding-left: 40px;
+    margin-top: 5px;
+  }
+
+
+  .isr {
+    background-image: url(https://www.dailyustimes.com/wp-content/uploads/2020/08/How-the-world-reacted-to-UAE-Israel-deal-to-normalise-ties-1200x720.jpg);
+    background-position: -200px -200px;
+    height: 500px;
+    margin: -5px 10px 0 5px;
+  }
+
+  .isr h1, .isr p, .isr span {
+    color: white;
+    padding: 350px 0 0 20px;
+  } 
+
+  .isr h1 {
+    font-size: 40px;
+    font-weight: 400;
+  }
+
+  .isr p {
+    padding: 0 0 0 20px;
+    margin-top: -10px;
+  }
+
+  .lowkeyHead {
+    display: block;
+    width: 50%;
+    margin-top: -24px;
+    float: left;
+  }
+
+  .lowkeyHead h2 {
+    display: block;
+    float: left;
+    width: 50%;
+  
+  }
+
+  /*
+  .lowkeyHead h2+h2 {
+    margin: -40px 1300px 0 1500px;
+    padding-right: 100px;
+  }
+  */
+  .four {
+    margin-top: 35px;
+  }
+
+  .four * {
+    color: white;
+    border: none;
+  }
+
+  .amer {
+    background-image: url(https://ichef.bbci.co.uk/news/1024/branded_news/D39B/production/_113917145_gettyimages-144092698.jpg);
+    background-position: -100px -100px;
+    
+  }
+
+  .amer *, .how *, .online *, .online1 * {
+    margin: 150px 0 0 20px;
+  }
+
+  .four h3 {
+    font-weight: 400;
+    font-size: 26px;
+  }
+
+  .four span {
+    font-weight: 300;
+  }
+
+  .how, .online, .online1{
+    background-image: url(https://i.guim.co.uk/img/media/8d1b88e0343f2294bd33ceb76bf2a8df9a5abe8f/0_0_4193_2516/master/4193.jpg?width=445&quality=85&auto=format&fit=max&s=33092a33565d626e10a73052eb22ac6d);
+  }
+
+  .lowerSec {
+    height: 700px;
+    display: block;
+    width: 100%;
+  }
+
+  .lowerSec h2 {
+    margin-top: 200px;
+    padding-top: 100px;
+  }
+
+  .lowerSec img {
+    height: 300px;
+    width: 98%;
+  }
+
+  .lowerSec section {
+    float: left;
+    width: 33.3333%;
+    height: 400px;
+    display: block;
+    padding-right: 5px;
+  }
+
+  .lowerSec h3 {
+    font-weight: bold;
+    letter-spacing: 1;
+    font-size: 25px;
+    padding-right: 20px;
+    margin-top: -1px;
+  }
+
+  .lowerSec p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: -15px;
+    padding-right: 5px;
+  }
+
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
+/*Janae Stewart done on a 1920 x 1080 display*/
